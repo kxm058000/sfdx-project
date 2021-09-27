@@ -6,6 +6,7 @@ global with sharing class DreamHouseSampleDataController {
    //demo4
    //demo6
    //demo7
+   //demo8
     @RemoteAction
     global static void deleteAll() {
         DELETE [SELECT ID FROM property__c];    
